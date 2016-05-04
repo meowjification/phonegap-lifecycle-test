@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*reset end*/
+
+
+
+
+
+body{
+
+	height:100vh;
+	width:100vw;
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+h1{
+
+	font-family: georgia;
+	color:red;
+	font-size:4.5vh;
+	margin-top:2vh;
+	text-align: center;
+	height:5vh;
+	background-color:beige;
+}
+h2{
+	font-family:georgia;
+	font-size: 4vh;
+	text-align: center;
+	background-color: beige;
+
+}
+
+.monthlycalender{
+
+	margin-top:10vh;
+	width:90vw;
+	
+	margin-left: 5vw;
+}
+.you{
+	font-size:6.5vh;
+	height:7vh;
+	margin-bottom: 8vh;
+}
+#two{
+	margin-top:2vh;
+}
+.line{
+	width:95vw;
+	background-color: black;
+	height:1vh;
+	margin-left: 2.5vw;
+
+}
+.mcevents{
+
+	width:90vw;
+	min-height:30vh;
+	margin-left: 5vw;
+	margin-top:2vh;
+
+}
+.button{
+
+	width:75vw;
+	text-align: center;
+	background:beige;
+	height:5vh;
+	font-size: 3.5vh;
+	margin-left:12.5vw;
+	margin-top:5vh;
+}
+.selected{
+
+	background-color: blue;
+}
+
+.gone{
+
+	background-color: grey;
+}
+
+
+.mc{
+	width:100%;
+
+}
+
+td{
+font-size: 3vh;
+border:1;
+height:5vh;
+text-align: center;
+border-style: solid;
+}
+.eventtd{
+	opacity: inherit;
+	height:6vh;
+}
+.eventsview{
+	width:90vw;
+	background-color:beige;
+
+	margin-top: 7.5vh;
+}
+tbody{
+	width:80vw;
+}
+.events{
+	margin:100px;
+}
+#shownevent{
+	opacity:1;
+	width:80%;
+}
+
+#partialevent{
+	opacity: 0.5;
+	width:80%;
+	border:0;
+}
+
+#hiddenevent{
+	opacity: 0;
+	width:80%;
+}
+.eventtable{
+
+}
+
+.menubar{
+	width:100vw;
+	height:9vh;
+	bottom:0;
+	padding-left: 5vw;	
+	position:fixed;
+}
+.menubutton{
+bottom:0;
+height:80%;
+
+}
+#settings{
+	margin-left:25vw;
+}
+#menu{
+	text-align:center;
+	margin-left:25vw;
+}
+#addevent{
+	text-align: left;
+}
+
+
+
+
+/*settings */
+/*setting themes themes; Default : eee5de Green 85FF7A RedED9F9F Blue 97BFDB*/
+.settings{
+	background-color: #eee5de;
+}
+/*Parent themes themes; Default : 8b8682 Green 3A6136 RedB02525 Blue : 446175 */
+.parent{
+
+	width:100vw;
+	height:9vh;
+	background:#8b8682;
+}
+/*Child themes themes; Default : cdc5bf Green 61B359 RedDE4545 Blue 62A8D9*/
+
+.child{
+
+	width:100vw;
+	height: 7.5vh;
+	background:#cdc5bf;
+
+}
+.settingschild{
+	width:100vw;
+	background:none;
+	text-align: left;
+	height:100%;
+	padding-left:2vw;
+}
+
+
+h3{
+	font-size: 4vh;
+}
+h4{
+	font-size: 5vh;
+	font-family: georgia;
+
+	margin-left: 1vw;
+
+}
+
+.settingsdisplay{
+	width:100vw;
+	background:#eee5de;
+	height:40vh;
+	position:relative;
+	padding-left: 5vw;
+	padding-top:5vh;
+	overflow: hidden;
+}
+
+.settingsdisplay2{
+	width: 85vw;
+	background:#eee5de;
+	height:40vh;
+	position:relative;
+	padding-left:3vw;
+	padding-top:5vh;
+	text-align: left;
+	overflow: hidden;
+	display:inline-block;
+}
+.psuedo{
+	float:left;
+	width:22%;
+	height:40%;
+	margin:0.5vw;
+	background:cyan;
+}
+.psuedo2{
+	width:30%;
+	height:20%;
+	display:inline-block;
+	font-size: 3vh;
+}
+
+.psuedo3{
+	height:57%;	
+	width:50%;
+	margin-left:10vw;
+	background:green;
+	display:inline-block;
+}
+#hidden{
+	display: none;
+}
+#shown{
+
+}
+.ss{
+	width:100%;
+}
+select{
+	width:100%;
+	height:10vh;
+}
+option{
+
+	font-size: 2.5vh;
+}
+select{
+	font-size: 5vh;
+}
+.cut{
+
+	width:100%;
+}
+.addevents{
+
+}
+.eventprevious{
+	width:70vw;
+	height:10vh;
+	background-color: red;
+
+}
+.eventname{
+	width:40vw;
+	height:20vh;
+	background-color: yellow;
+}
+.eventtype{
+	width:100vw;
+	height:10vh;
+	background:blue;
+}
+.eventtime{
+	width:70vw;
+	height:10vh;
+	background-color:black;
+}
+.eventre{
+	width:70vw;
+	height:10vh;
+	background:cyan;
+}
+.evendescription{
+	width: 70vw;	
+	height:20vh;
+	background-color: orange;
+}
+}
